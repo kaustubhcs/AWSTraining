@@ -28,3 +28,6 @@ chmod +x ./install
 ./install auto
 service httpd start
 chkconfig httpd on
+cd /var/www/html/
+echo "I am Healthy" >> health.html
+cd /home/ec2-user
